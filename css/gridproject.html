@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            width: 500px;
+            height: 500px;
+            display: grid;
+            border: 3px solid black;
+            gap: 7px;
+            grid-template-rows: repeat(6,1fr);
+            grid-template-columns: repeat(7,1fr);   
+        }
+       .grid-child{
+        background-color:black;
+        display: flex;
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+       }
+       .gc1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: dimgray ;
+       }
+       .gc2{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        background-color:dimgrey;
+        
+       } 
+       .gc3{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 5;
+        grid-column-end: 8;
+       }
+       .gc22{
+        grid-row-start: 4;
+        grid-row-end: 6;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        
+       }
+       /* .gc4{
+        grid-row-start: 1;
+        grid-row-end:1.5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+       }
+        */
+        .gc32{
+            grid-row-start: 6;
+            grid-row-end: 7;
+            grid-column-start: 2;
+            grid-column-end: 5;
+        }
+        .gc33{
+            grid-row-start: 6;
+            grid-row-end: 7;
+            grid-column-start: 5;
+            grid-column-end: 8;
+           
+        }
+        .gc4{
+            background-color: dimgrey;
+        }
+        .gc11{
+            background-color:dimgrey
+        }
+        .gc18{
+            background-color: dimgrey;
+        }
+        .gc25{
+            background-color: dimgrey;
+        }
+        .gc28{
+            background-color: dimgrey;
+        }
+        .gc1{
+            background-color: dimgrey;
+        }
+        .g2{
+            background-color: dimgrey;
+        }
+        .gc3{
+            background-color: dimgrey;
+        }
+        .gc4{
+            background-color: dimgrey;
+        }
+        .gc5{
+            background-color: dimgrey;
+        }
+        .gc7{
+            background-color: dimgrey;
+        }
+        .gc8{
+            background-color: dimgrey;
+        }
+       .gc9{
+        background-color: dimgrey;
+       }
+       .gc10{
+        background-color: dimgrey;
+       }
+       .gc11{
+        background-color: dimgrey;
+       }
+       .gc12{
+        background-color: dimgrey;
+       }
+       .gc13{
+        background-color: dimgrey;
+       }
+       .gc14{
+        background-color: dimgrey;
+       }
+       .gc15{
+        background-color: dimgrey;
+       }
+       .gc16{
+        background-color: dimgrey;
+       }
+       .gc17{
+        background-color: dimgrey;
+       }
+       .gc18{
+        background-color: dimgrey;
+       }
+       .gc19{
+        background-color: dimgrey;
+       }
+       .gc20{
+        background-color: dimgrey;
+       }
+       .gc21{
+        background-color: dimgrey;
+       }
+       .gc22{
+        background-color: dimgrey;
+       }
+       .gc23{
+        background-color: dimgrey;
+       }
+       .gc24{
+        background-color: dimgrey;
+       }
+       .gc25{
+        background-color: dimgrey;
+       }
+       .gc26{
+        background-color: dimgrey;
+       } .gc27{
+        background-color: dimgrey;
+       }
+       .gc28{
+        background-color: dimgrey;
+       }
+       .gc29{
+        background-color: dimgrey;
+       }
+       .gc30{
+        background-color: dimgrey;
+       }
+       .gc31{
+        background-color: dimgrey;
+       }
+       .gc6{
+        background-color: dimgrey;
+       }
+       .gc32{
+        background-color: dimgrey;
+       }
+       .gc33{
+        background-color: dimgrey;
+       }
+    </style>
+</head>
+<body>
+    <div class="grid">
+       
+
+        <div class="grid-child gc1">Check</div>
+        <div class="grid-child gc2">delete</div>
+        <div class="grid-child gc3"></div>
+        <div class="grid-child gc4">GT</div>
+        <div class="grid-child gc5">7</div>
+        <div class="grid-child gc6">8</div>
+        <div class="grid-child gc7">9</div>
+        <div class="grid-child gc8">()</div>
+        <div class="grid-child gc9">AUTO
+                                   PLAY
+        </div> 
+        <div class="grid-child gc10">0N/AD</div>
+        <div class="grid-child gc11">MU</div>
+        <div class="grid-child gc12">4</div>
+        <div class="grid-child gc13">5</div>
+        <div class="grid-child gc14">6</div>
+        <div class="grid-child gc15">^</div>
+        <div class="grid-child gc16">%</div>
+        <div class="grid-child gc17">Mrc</div> 
+        <div class="grid-child gc18">+/-</div>
+        <div class="grid-child gc19">1</div>
+        <div class="grid-child gc20">2</div>
+        <div class="grid-child gc21">3</div>
+        <div class="grid-child gc22">+</div>
+        <div class="grid-child gc23">-</div> 
+        <div class="grid-child gc24">M=</div>
+        <div class="grid-child gc25">*</div> 
+        <div class="grid-child gc26">0</div>
+        <div class="grid-child gc27">00</div> 
+        <div class="grid-child gc28">*</div>
+        <div class="grid-child gc29">=</div>
+        <div class="grid-child gc30">M+
+                                     =
+        </div> 
+        <div class="grid-child gc31">CE</div>
+        <div class="grid-child gc32">=</div>
+        <div class="grid-child gc33">ANSWER</div> 
+    </div>
+</body>
+</html>
